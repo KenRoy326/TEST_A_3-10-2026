@@ -152,6 +152,18 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5645833333333333,
+      "y": 0.49411764705882355,
+      "uniqueID": "id-112",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -179,6 +191,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-94",
       "ap2ID": "id-106"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-106",
+      "ap2ID": "id-112"
     }
   ],
   "unitsKey": "MM",
