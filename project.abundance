@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3921875,
-      "y": 0.32,
+      "x": 0.26666666666666666,
+      "y": 0.16941176470588235,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -30,15 +30,15 @@
         },
         {
           "name": "height",
-          "ioValue": 60,
-          "currentEquation": "60"
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.23072916666666665,
-      "y": 0.7552941176470588,
+      "x": 0.3921875,
+      "y": 0.25411764705882356,
       "uniqueID": "id-55",
       "ioValues": [
         {
@@ -61,8 +61,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.11458333333333334,
-      "y": 0.2376470588235294,
+      "x": 0.13489583333333333,
+      "y": 0.2588235294117647,
       "uniqueID": "id-67",
       "ioValues": [
         {
@@ -73,6 +73,34 @@
         {
           "name": "y length",
           "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.11406250000000001,
+      "y": 0.6635294117647059,
+      "uniqueID": "id-71",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.21406250000000002,
+      "y": 0.6564705882352941,
+      "uniqueID": "id-74",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
         }
       ]
     }
@@ -87,6 +115,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-67",
       "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-71",
+      "ap2ID": "id-74"
     }
   ],
   "unitsKey": "MM",
