@@ -74,7 +74,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
