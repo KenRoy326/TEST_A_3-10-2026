@@ -158,8 +158,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5416666666666666,
-      "y": 0.4988235294117647,
+      "x": 0.5421875,
+      "y": 0.5317647058823529,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -171,6 +171,91 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.5421875,
+      "y": 0.5317647058823529,
+      "uniqueID": "id-117",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "cut-move-rotate-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-0-0-0-0-0-move-extrude-rectangle-60-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-15-0",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-extrude-rectangle-60-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-15-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -208,6 +293,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-106",
       "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-112",
+      "ap2ID": "id-117"
     }
   ],
   "unitsKey": "MM",
