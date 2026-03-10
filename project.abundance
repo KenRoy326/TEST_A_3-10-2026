@@ -20,22 +20,74 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.29270833333333335,
-      "y": 0.5388235294117647,
+      "x": 0.2973958333333333,
+      "y": 0.5552941176470588,
       "uniqueID": "id-4",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 50
         },
         {
           "name": "y length",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3973958333333333,
+      "y": 0.5552941176470588,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
           "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.49739583333333326,
+      "y": 0.5552941176470588,
+      "uniqueID": "id-12",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-12"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
