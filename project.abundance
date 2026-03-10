@@ -19,24 +19,6 @@
       ]
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.12552083333333333,
-      "y": 0.47294117647058825,
-      "uniqueID": "id-4",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 60,
-          "currentEquation": "60"
-        },
-        {
-          "name": "y length",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
       "x": 0.403125,
       "y": 0.47764705882352937,
@@ -54,8 +36,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5906250000000001,
-      "y": 0.5811764705882353,
+      "x": 0.22864583333333333,
+      "y": 0.7764705882352941,
       "uniqueID": "id-55",
       "ioValues": [
         {
@@ -80,18 +62,7 @@
       ]
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-8"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-8",
-      "ap2ID": "id-55"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
