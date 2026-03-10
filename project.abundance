@@ -31,7 +31,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 15
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     },
@@ -63,8 +64,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
@@ -73,15 +73,14 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.24375000000000002,
-      "y": 0.7552941176470588,
+      "x": 0.22812500000000002,
+      "y": 0.771764705882353,
       "uniqueID": "id-27",
       "ioValues": [
         {
