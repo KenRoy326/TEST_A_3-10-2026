@@ -73,14 +73,15 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.22812500000000002,
-      "y": 0.771764705882353,
+      "x": 0.21197916666666666,
+      "y": 0.7223529411764706,
       "uniqueID": "id-27",
       "ioValues": [
         {
@@ -111,6 +112,38 @@
         }
       ],
       "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.209375,
+      "y": 0.7341176470588235,
+      "uniqueID": "id-35",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3494791666666667,
+      "y": 0.8588235294117648,
+      "uniqueID": "id-39",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -128,6 +161,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-12"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-35",
+      "ap2ID": "id-39"
     }
   ],
   "unitsKey": "MM",
