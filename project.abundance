@@ -30,15 +30,15 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.3921875,
-      "y": 0.25411764705882356,
+      "x": 0.378125,
+      "y": 0.2564705882352941,
       "uniqueID": "id-55",
       "ioValues": [
         {
@@ -51,7 +51,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 15,
+          "currentEquation": "15"
         },
         {
           "name": "zDist",
@@ -84,14 +85,15 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.21406250000000002,
-      "y": 0.6635294117647059,
+      "x": 0.19791666666666669,
+      "y": 0.64,
       "uniqueID": "id-90",
       "ioValues": [
         {
@@ -100,7 +102,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
@@ -130,8 +133,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4322916666666667,
-      "y": 0.6329411764705882,
+      "x": 0.43593750000000003,
+      "y": 0.6964705882352942,
       "uniqueID": "id-106",
       "ioValues": [
         {
@@ -155,12 +158,16 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5645833333333333,
-      "y": 0.49411764705882355,
+      "x": 0.5416666666666666,
+      "y": 0.4988235294117647,
       "uniqueID": "id-112",
       "ioValues": [
         {
           "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
           "ioValue": null
         }
       ]
@@ -171,6 +178,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-55"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-55",
+      "ap2ID": "id-112"
     },
     {
       "ap2Name": "geometry",
