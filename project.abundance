@@ -158,8 +158,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5421875,
-      "y": 0.5317647058823529,
+      "x": 0.5213541666666667,
+      "y": 0.3647058823529412,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -256,6 +256,67 @@
         }
       ],
       "unionType": "Fusion"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6203124999999999,
+      "y": 0.2188235294117647,
+      "uniqueID": "id-133",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7437499999999999,
+      "y": 0.4658823529411764,
+      "uniqueID": "id-137",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.8437499999999999,
+      "y": 0.4658823529411764,
+      "uniqueID": "id-143",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -298,6 +359,21 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-112",
       "ap2ID": "id-125"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-112",
+      "ap2ID": "id-133"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-133",
+      "ap2ID": "id-137"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-137",
+      "ap2ID": "id-143"
     }
   ],
   "unitsKey": "MM",
