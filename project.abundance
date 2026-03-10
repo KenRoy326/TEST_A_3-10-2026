@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.403125,
-      "y": 0.47764705882352937,
+      "x": 0.3921875,
+      "y": 0.32,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -30,14 +30,15 @@
         },
         {
           "name": "height",
-          "ioValue": 21
+          "ioValue": 60,
+          "currentEquation": "60"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.22864583333333333,
-      "y": 0.7764705882352941,
+      "x": 0.23072916666666665,
+      "y": 0.7552941176470588,
       "uniqueID": "id-55",
       "ioValues": [
         {
@@ -46,23 +47,48 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.11458333333333334,
+      "y": 0.2376470588235294,
+      "uniqueID": "id-67",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 60,
+          "currentEquation": "60"
+        },
+        {
+          "name": "y length",
+          "ioValue": 5
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-55"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-67",
+      "ap2ID": "id-8"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
