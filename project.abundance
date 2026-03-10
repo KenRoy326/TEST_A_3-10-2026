@@ -51,8 +51,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 30,
+          "currentEquation": "30"
         },
         {
           "name": "zDist",
@@ -123,7 +123,8 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
@@ -148,7 +149,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -158,8 +160,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5213541666666667,
-      "y": 0.3647058823529412,
+      "x": 0.5302083333333333,
+      "y": 0.38823529411764707,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -183,7 +185,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "cut-move-rotate-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-0-0-0-0-0-move-extrude-rectangle-60-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-15-0",
+                "geometry": "move-rotate-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-0-0-0-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -207,7 +209,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-extrude-rectangle-60-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-15-0",
+                "geometry": "move-extrude-rectangle-60-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-30-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -306,15 +308,18 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
